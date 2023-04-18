@@ -9,10 +9,10 @@
 .Layout2{font-size: 25px;}
 
 .top{ display:flex; justify-content: center;}
-.title{background-color: red;flex-basis: 100%; padding-left: 32.5px;}
-.menu{background-color: blue;max-width:75px ; float: right; }
+.title{background-color: red; flex-basis: 100%; padding-left: 100px;}
+.menu{background-color: blue;width:100px ; float: right; }
 .search{background-color: aqua;}
-.listorder{background-color:green; height: 100%;}
+.content{background-color:green; height: 100%;}
 
 @media (max-width: 696px){
     .page{
