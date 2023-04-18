@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Layout.module.css";
+import Header from "../Header/Header";
 const Layout = (props) => {
   console.log("ciao");
 
@@ -7,7 +8,7 @@ const Layout = (props) => {
 
   return (
     <div className={classes.page}>
-      <header className={clheader.join(" ")}>logo</header>
+      <header className={clheader.join(" ")}><Header /></header>
       <div className={classes.top}>
         <div className={classes.title}>title        <div className={classes.menu}>menù</div></div>
  
